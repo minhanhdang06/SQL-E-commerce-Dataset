@@ -38,7 +38,8 @@ In this project, I will write 08 query in Bigquery base on Google Analytics data
 
 ### Query 01: calculate total visit, pageview, transaction for Jan, Feb and March 2017 (order by month)
 
-![1](https://github.com/user-attachments/assets/f336174d-74fa-4a46-9ed9-b28c177ba033)
+<img width="685" height="206" alt="image" src="https://github.com/user-attachments/assets/c80e0eb2-799e-4083-8286-c4fdde9ee929" />
+
 
 
 
@@ -50,7 +51,8 @@ In this project, I will write 08 query in Bigquery base on Google Analytics data
 
 ### Query 02: Bounce rate per traffic source in July 2017 (Bounce_rate = num_bounce/total_visit) (order by total_visit DESC)
 
-![2](https://github.com/user-attachments/assets/e1f5094b-faf5-4631-af0e-05c1d2aa6185)
+<img width="709" height="186" alt="image" src="https://github.com/user-attachments/assets/b1b2226f-5db2-4b42-a88e-02a5a0a4afc2" />
+
 
 
 | source | total_visits | total_no_of_bounces | bounce_rate (%) |
@@ -101,73 +103,70 @@ In this project, I will write 08 query in Bigquery base on Google Analytics data
 | [m.yz.sm.cn](http://m.yz.sm.cn/) | 7 | 5 | 71.42857143 |
 | [google.co.in](http://google.co.in/) | 6 | 3 | 50 |
 | [search.xfinity.com](http://search.xfinity.com/) | 6 | 6 | 100 |
-| [google.ru](http://google.ru/) | 5 | 1 | 20 |
-| [online-metrics.com](http://online-metrics.com/) | 5 | 2 | 40 |
-| [s0.2mdn.net](http://s0.2mdn.net/) | 5 | 3 | 60 |
-| [hangouts.google.com](http://hangouts.google.com/) | 5 | 1 | 20 |
+
 
 ### Query 3: Revenue by traffic source by week, by month in June 2017
 
-![3](https://github.com/user-attachments/assets/872b0439-426f-42f7-a614-9c98c7ffb03c)
+<img width="744" height="311" alt="image" src="https://github.com/user-attachments/assets/a984e021-3881-4865-b7c8-968d3144b550" />
+<img width="743" height="402" alt="image" src="https://github.com/user-attachments/assets/17276e8f-bbbc-4585-a803-8971cb0e5df5" />
 
 
-| time_type | time | source | revenue |
+| time_type | month | source | revenue |
 | --- | --- | --- | --- |
-| Month | 201706 | (direct) | 97333.6197 |
-| Week | 201724 | (direct) | 30908.90993 |
-| Week | 201725 | (direct) | 27295.31992 |
-| Month | 201706 | google | 18757.17992 |
-| Week | 201723 | (direct) | 17325.67992 |
-| Week | 201726 | (direct) | 14914.80995 |
-| Week | 201724 | google | 9217.169976 |
 | Month | 201706 | dfa | 8862.229996 |
-| Week | 201722 | (direct) | 6888.899975 |
-| Week | 201726 | google | 5330.569964 |
-| Week | 201726 | dfa | 3704.74 |
-| Month | 201706 | [mail.google.com](http://mail.google.com/) | 2563.13 |
-| Week | 201724 | [mail.google.com](http://mail.google.com/) | 2486.86 |
-| Week | 201724 | dfa | 2341.56 |
-| Week | 201722 | google | 2119.38999 |
-| Week | 201722 | dfa | 1670.649998 |
-| Week | 201723 | dfa | 1145.279998 |
-| Week | 201723 | google | 1083.949999 |
-| Week | 201725 | google | 1006.099991 |
-| Week | 201723 | [search.myway.com](http://search.myway.com/) | 105.939998 |
-| Month | 201706 | [search.myway.com](http://search.myway.com/) | 105.939998 |
-| Month | 201706 | [groups.google.com](http://groups.google.com/) | 101.96 |
-| Week | 201725 | [mail.google.com](http://mail.google.com/) | 76.27 |
-| Week | 201723 | [chat.google.com](http://chat.google.com/) | 74.03 |
-| Month | 201706 | [chat.google.com](http://chat.google.com/) | 74.03 |
-| Week | 201724 | [dealspotr.com](http://dealspotr.com/) | 72.95 |
-| Month | 201706 | [dealspotr.com](http://dealspotr.com/) | 72.95 |
-| Week | 201725 | [mail.aol.com](http://mail.aol.com/) | 64.849998 |
-| Month | 201706 | [mail.aol.com](http://mail.aol.com/) | 64.849998 |
-| Week | 201726 | [groups.google.com](http://groups.google.com/) | 63.37 |
-| Week | 201725 | [phandroid.com](http://phandroid.com/) | 52.95 |
-| Month | 201706 | [phandroid.com](http://phandroid.com/) | 52.95 |
-| Month | 201706 | [sites.google.com](http://sites.google.com/) | 39.17 |
-| Week | 201725 | [groups.google.com](http://groups.google.com/) | 38.59 |
-| Week | 201725 | [sites.google.com](http://sites.google.com/) | 25.19 |
-| Week | 201725 | [google.com](http://google.com/) | 23.99 |
-| Month | 201706 | [google.com](http://google.com/) | 23.99 |
-| Week | 201726 | yahoo | 20.39 |
+| Month | 201706 | youtube.com | 16.99 |
+| Month | 201706 | chat.google.com | 74.03 |
+| Month | 201706 | mail.google.com | 2563.13 |
+| Month | 201706 | google.com | 23.99 |
+| Month | 201706 | mail.aol.com | 64.849998 |
+| Month | 201706 | (direct) | 97333.619695 |
+| Month | 201706 | google | 18757.17992 |
+| Month | 201706 | sites.google.com | 39.17 |
+| Month | 201706 | phandroid.com | 52.95 |
+| Month | 201706 | dealspotr.com | 72.95 |
+| Month | 201706 | l.facebook.com | 12.48 |
 | Month | 201706 | yahoo | 20.39 |
-| Week | 201723 | [youtube.com](http://youtube.com/) | 16.99 |
-| Month | 201706 | [youtube.com](http://youtube.com/) | 16.99 |
-| Week | 201724 | bing | 13.98 |
-| Week | 201722 | [sites.google.com](http://sites.google.com/) | 13.98 |
+| Month | 201706 | groups.google.com | 101.96 |
+| Month | 201706 | search.myway.com | 105.939998 |
 | Month | 201706 | bing | 13.98 |
-| Week | 201724 | [l.facebook.com](http://l.facebook.com/) | 12.48 |
-| Month | 201706 | [l.facebook.com](http://l.facebook.com/) | 12.48 |
-| Week | 201725 | dfa | null |
-| Week | 201725 | [t.co](http://t.co/) | null |
-| Week | 201724 | baidu | null |
-| Week | 201723 | yahoo | null |
+| Week | 201726 | google | 5330.569964 |
+| Week | 201725 | google.com | 23.99 |
+| Week | 201725 | groups.google.com | 38.59 |
+| Week | 201725 | sites.google.com | 25.19 |
+| Week | 201723 | search.myway.com | 105.939998 |
+| Week | 201724 | dealspotr.com | 72.95 |
+| Week | 201724 | dfa | 2341.56 |
+| Week | 201725 | google | 1006.099991 |
+| Week | 201726 | groups.google.com | 63.37 |
+| Week | 201722 | (direct) | 6888.899975 |
+| Week | 201722 | dfa | 1670.649998 |
+| Week | 201723 | (direct) | 17325.679919 |
+| Week | 201725 | phandroid.com | 52.95 |
+| Week | 201725 | mail.aol.com | 64.849998 |
+| Week | 201723 | google | 1083.949999 |
+| Week | 201724 | (direct) | 30908.909927 |
+| Week | 201724 | bing | 13.98 |
+| Week | 201724 | mail.google.com | 2486.86 |
+| Week | 201725 | (direct) | 27295.319924 |
+| Week | 201726 | (direct) | 14914.80995 |
+| Week | 201726 | yahoo | 20.39 |
+| Week | 201726 | dfa | 3704.74 |
+| Week | 201722 | google | 2119.38999 |
+| Week | 201725 | mail.google.com | 76.27 |
+| Week | 201723 | dfa | 1145.279998 |
+| Week | 201723 | youtube.com | 16.99 |
+| Week | 201722 | sites.google.com | 13.98 |
+| Week | 201723 | chat.google.com | 74.03 |
+| Week | 201724 | google | 9217.169976 |
+| Week | 201724 | l.facebook.com | 12.48 |
+
 
 ### Query 04: Average number of pageviews by purchaser type (purchasers vs non-purchasers) in June, July 2017.
 
-![4,1](https://github.com/user-attachments/assets/01faea46-2865-40d0-a007-02648c942170)
-![4 2](https://github.com/user-attachments/assets/361118c4-b964-4979-8ac5-934de2fd9a23)
+<img width="869" height="291" alt="image" src="https://github.com/user-attachments/assets/78b53c57-2692-49ff-88db-dc5c97cba7a9" />
+<img width="866" height="420" alt="image" src="https://github.com/user-attachments/assets/e7c82f8f-c879-49ce-863b-3d11e12989eb" />
+<img width="424" height="152" alt="image" src="https://github.com/user-attachments/assets/99f86503-4b5a-40e5-8a6e-8010f8c2e873" />
+
 
 
 
@@ -178,7 +177,8 @@ In this project, I will write 08 query in Bigquery base on Google Analytics data
 
 ### Query 05: Average number of transactions per user that made a purchase in July 2017
 
-![5](https://github.com/user-attachments/assets/cf83e83e-d419-437d-97cb-c3efca7a7d3b)
+<img width="923" height="201" alt="image" src="https://github.com/user-attachments/assets/160ed1a7-1a96-41b5-a441-b45a6d1b9c61" />
+
 
 
 | month | Avg_total_transactions_per_user |
@@ -187,7 +187,8 @@ In this project, I will write 08 query in Bigquery base on Google Analytics data
 
 ### Query 06: Average amount of money spent per session. Only include purchaser data in July 2017
 
-![6](https://github.com/user-attachments/assets/d7ddd8cb-4c94-4f51-86b6-e4471a5a2137)
+<img width="984" height="203" alt="image" src="https://github.com/user-attachments/assets/05db1668-bf68-42d8-bc46-92f3a9f3b62b" />
+
 
 
 | month | avg_revenue_by_user_per_visit |
