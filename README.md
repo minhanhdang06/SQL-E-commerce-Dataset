@@ -197,7 +197,7 @@ In this project, I will write 08 query in Bigquery base on Google Analytics data
 
 ### Query 07: Other products purchased by customers who purchased product "YouTube Men's Vintage Henley" in July 2017. Output should show product name and the quantity was ordered.
 
-![7](https://github.com/user-attachments/assets/503cef2b-7df4-4def-9a73-28fe9c8e14b8)
+<img width="795" height="506" alt="image" src="https://github.com/user-attachments/assets/28f38c5a-b1eb-4bf7-868b-602fbd143e6c" />
 
 
 | ProductName | quantity |
@@ -255,7 +255,8 @@ In this project, I will write 08 query in Bigquery base on Google Analytics data
 
 ### Query 08: Calculate cohort map from product view to addtocart to purchase in Jan, Feb and March 2017. For example, 100% product view then 40% add_to_cart and 10% purchase. Add_to_cart_rate = number product add to cart/number product view. Purchase_rate = number product purchase/number product view. The output should be calculated in product level.
 
-![8](https://github.com/user-attachments/assets/7f2b1c5e-1bc5-4103-87f2-4a2046374d39)
+<img width="1408" height="449" alt="image" src="https://github.com/user-attachments/assets/a787f161-d1fc-41c9-8fe1-7c74d3b9a83c" />
+
 
 
 | month | num_product_view | num_addtocart | num_purchase | add_to_cart_rate | purchase_rate |
